@@ -2,10 +2,10 @@
   <b-container class="container">
     <b-nav class="navbar">
       <h1 class="navbar-name">Abey Thomas</h1>
-      <b-nav-item class="navbar-list__item">EXPERIENCE</b-nav-item>
-      <b-nav-item class="navbar-list__item">EDUCATION</b-nav-item>
-      <b-nav-item class="navbar-list__item">SKILLS</b-nav-item>
-      <b-nav-item class="navbar-list__item">CONTACT</b-nav-item>
+      <b-nav-item d-flex justify-content-end>EXPERIENCE</b-nav-item>
+      <b-nav-item d-flex justify-content-end>EDUCATION</b-nav-item>
+      <b-nav-item d-flex justify-content-end>SKILLS</b-nav-item>
+      <b-nav-item d-flex justify-content-end>CONTACT</b-nav-item>
     </b-nav>
   </b-container>
 </template>
@@ -19,7 +19,6 @@
   background-color: white;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
   list-style: none;
   margin: 0;
   border: 3px solid gray;
