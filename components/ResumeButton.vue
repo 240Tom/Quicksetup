@@ -1,6 +1,6 @@
 <template>
   <button class="button">
-    <a href="/Resume/index.html" role="button">Check out my Resume</a>
+    <a href="../pages/Resume.vue" role="button">Check out my Resume</a>
   </button>
 </template>
 
@@ -10,6 +10,7 @@
   background-color: white;
   border-radius: 4px;
   margin: auto;
+  border-top: 20px;
 
   border-color: blue;
 }

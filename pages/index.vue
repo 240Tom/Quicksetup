@@ -3,6 +3,7 @@
     <TheHeader />
     <main>
       <Introduction />
+
       <ResumeButton />
     </main>
     <TheFooter />

@@ -1,7 +1,7 @@
 <template>
   <section class="testimonial">
     <img
-      src="~assets/profilepic.JPG"
+      src="~assets/profilepic.jpg"
       alt="profilepic"
       class="testimonial-image"
     />
@@ -20,20 +20,21 @@
 .testimonial {
   display: flex;
   max-width: 800px;
-  border: 2px, solid, gray;
   margin: auto;
-
-  height: 500px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 700px;
 }
 .testimonial-image {
   flex-grow: 1;
+  height: 500px;
 }
 
 .testimonial-text {
   flex-grow: 2;
   color: rgb(173, 16, 55);
   font-size: 2rem;
-  flex-basis: auto;
+
   text-align: center;
   padding: 16px;
 }

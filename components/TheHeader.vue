@@ -1,7 +1,7 @@
 <template>
-  <b-container class="container">
-    <b-nav class="navbar">
-      <h1 class="navbar-name">Abey Thomas</h1>
+  <b-container class="header">
+    <b-nav class="nav">
+      <h1 class="nav-name">Abey Thomas</h1>
       <b-nav-item d-flex justify-content-end>EXPERIENCE</b-nav-item>
       <b-nav-item d-flex justify-content-end>EDUCATION</b-nav-item>
       <b-nav-item d-flex justify-content-end>SKILLS</b-nav-item>
@@ -10,18 +10,18 @@
   </b-container>
 </template>
 <style lang="scss">
-.container {
+.header {
   max-width: inherit;
   padding-left: 0px;
   padding-right: 0px;
+  padding-bottom: 50px;
 }
-.navbar {
+.nav {
   background-color: white;
   display: flex;
   flex-flow: row wrap;
   list-style: none;
   margin: 0;
-  border: 3px solid gray;
 
   &-name {
     flex-grow: 1;
@@ -33,13 +33,13 @@
     color: rgb(173, 16, 55);
   }
   @media all and (max-width: 800px) {
-    .navbar {
+    .nav {
       justify-content: space-around;
     }
   }
 
   @media all and (max-width: 600px) {
-    .navbar {
+    .nav {
       flex-flow: column wrap;
       padding: 0;
     }
